@@ -141,7 +141,7 @@ def count_files_in_dataset(dataset_path):
 def main():
     # Define paths
     original_dataset = '/kaggle/input/labeled-chest-xray-images/chest_xray'
-    target_dataset = '/kaggle/input/labeled-chest-xray-images/splited_chest_xray'
+    target_dataset = '/kaggle/working/splited_chest_xray'
     
     # Parameters
     # Change this to modify where validation data comes from

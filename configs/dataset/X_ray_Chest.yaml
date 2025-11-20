@@ -1,6 +1,6 @@
 name: customized
-data_path: /kaggle/input/labeled-chest-xray-images/chest_xray # path to the dataset
-preload_path: /kaggle/input/labeled-chest-xray-images/chest_xray_preload # path to the preloaded data
+data_path: /kaggle/working/splited_chest_xray # path to the dataset
+preload_path: /kaggle/working/splited_chest_xray_preload # path to the preloaded data
 save_path: ./runs/exp # path to save the experiment results
 input_size: 512 # image resolution for the LPM
 num_classes: 2 # number of classes
