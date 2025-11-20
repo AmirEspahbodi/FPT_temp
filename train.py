@@ -279,3 +279,4 @@ def resume(cfg, model, optimizer):
     else:
         print_msg('No checkpoint found at {}'.format(checkpoint))
         raise FileNotFoundError('No checkpoint found at {}'.format(checkpoint))
+
